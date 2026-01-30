@@ -44,4 +44,5 @@ func init() {
 	rootCmd.AddCommand(preview.PreviewCmd)
 	rootCmd.AddCommand(deploy.DeployCmd)
 	rootCmd.AddCommand(launch.LaunchCmd)
+	rootCmd.AddCommand(cleanupCmd)
 }
